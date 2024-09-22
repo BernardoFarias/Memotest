@@ -34,3 +34,4 @@ Memotest is a memory card game built using JavaScript and Bootstrap. The objecti
 
 - **JavaScript**: For game logic and interactions.
 - **Bootstrap**: For styling and responsive design.
+- **Cypress**: For testing.
