@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cypress-dev": "cypress open",
+    "cypress-run": "cypress run"
   },
   "devDependencies": {
+    "cypress": "^13.14.2",
     "vite": "^5.4.1"
   },
   "dependencies": {

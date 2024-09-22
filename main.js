@@ -14,11 +14,12 @@ document.querySelector('#app').innerHTML = `
     <h1>Welcome to Memotest</h1>
     <p>Click on the button below to start the game!</p>
 
-    <div class="card">
+
       <button id="start" type="button">Start</button>
     <p class="read-the-docs">
       Developed by Bernardo Farias
     </p>
+
   </div>
 `
 

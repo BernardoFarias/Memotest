@@ -119,7 +119,7 @@ function hideSquare($square){
     setTimeout(function() {
     $square.classList.remove("show")
     $square.classList.add("hide")
-    }, 1500 )
+    }, 1000 )
 }
 
 function squareDisabled($square){
@@ -132,9 +132,7 @@ function squareDisabled($square){
 
 function isGameOver(){
     setTimeout(function() {
-    console.log("analizo", document.querySelectorAll(".square"))
     if(document.querySelectorAll(".square").length === 0){
-        console.log("fin del juego")
         $board.style.display = "none"
         $endGame.querySelector("strong").textContent = turns.toString()
         $endGame.classList.remove("hide")
